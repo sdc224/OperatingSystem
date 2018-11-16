@@ -28,7 +28,7 @@ int compare_arrival_time(operation q[], const int a, const int b)
 	return q[a].arrival_time < q[b].arrival_time;
 }
 
-int main()
+int main(void)
 {
 	int i, n, k = 1;
 	int j, weight_time[10], turn_around_time[10], turn_around=0, sum=0;

@@ -25,8 +25,7 @@ void find_waiting_time(operation process[], const int n, int wait_time[])
 	int check = 0; 
   
 	while (complete != n) 
-	{
-  
+	{  
 		for (int j = 0; j < n; j++) 
 		{ 
 			if (process[j].arrival_time <= t && burst_time[j] < min && burst_time[j] > 0) 
