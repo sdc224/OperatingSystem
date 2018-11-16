@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ShortestJobFirstNonPreemptive.c">
+    <ClCompile Include="ShortestJobNextPreemptive.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
